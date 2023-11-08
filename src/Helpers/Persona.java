@@ -14,7 +14,7 @@ public class Persona {
     private String ID; // Propiedades generales de toda las subClases Doctor y Deportista.
     private String Nombre; // Propiedades generales de toda las subClases Doctor y Deportista.
     private double Edad; // Propiedades generales de toda las subClases Doctor y Deportista.
-    private String correo; // Propiedades generales de toda las subClases Doctor y Deportista.
+    private String Correo; // Propiedades generales de toda las subClases Doctor y Deportista.
     private String Profesion; // Propiedades generales de toda las subClases Doctor y Deportista.
     private String Telefono; // Propiedades generales de toda las subClases Doctor y Deportista.
     
@@ -58,6 +58,15 @@ public class Persona {
     
     public String obtenerProfesion () {
         return this.Profesion;
+    }
+
+        //-------------------
+    public void EstablecerCorreo (String Correo){//Metodo General
+       this.Correo = Correo;  
+    }
+    
+    public String obtenerCorreo () {
+        return this.Correo;
     }
     
 }
