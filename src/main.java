@@ -1,3 +1,6 @@
+
+import Helpers.Deportista;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -15,11 +18,11 @@ public class main {
     public static void main(String[] args) {
         // Tenerlo planteado para cuando los compañeros suban las clases Doctor y deportista
         
-        Doctor doctor = new Doctor(); //Instanciar la clase Doctor 
+        Deportista deportista = new Deportista(); //Instanciar la clase Doctor 
         
         System.out.println("Datos Generales");
         
-        doctor.imprimirgeneral();
+        deportista.imprimirgeneral();
     }
     
 }
