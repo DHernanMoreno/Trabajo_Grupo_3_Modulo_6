@@ -14,6 +14,12 @@ public class main {
      */
     public static void main(String[] args) {
         // Tenerlo planteado para cuando los compañeros suban las clases Doctor y deportista
+        
+        Doctor doctor = new Doctor(); //Instanciar la clase Doctor 
+        
+        System.out.println("Datos Generales");
+        
+        doctor.imprimirgeneral();
     }
     
 }
