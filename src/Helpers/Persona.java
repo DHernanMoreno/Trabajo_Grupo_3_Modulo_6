@@ -8,7 +8,7 @@ package Helpers;
  *
  * @author dhern
  */
-public class Persona {
+public abstract class Persona {
     
     //ATRIBUTOS 
     private String ID; // Propiedades generales de toda las subClases Doctor y Deportista.
@@ -86,5 +86,6 @@ public class Persona {
        System.out.println("Correo: " + Correo); 
        System.out.println("Telefono: " + Telefono);   
     }
+   abstract String ObternerInformacionPersona();
     
 }
