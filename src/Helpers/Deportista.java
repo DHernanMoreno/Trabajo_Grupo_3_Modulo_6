@@ -5,6 +5,17 @@ package Helpers;
 
 public class Deportista extends Persona {
     // Atributos específicos de la subclase Deportista
+    
+      public Deportista (){
+      Identidad ("1627200089009");
+      EstablecerNombre("Carlos Moreira");
+      EstablecerEdad(27);
+      EstablecerProfesion("Deportista");
+      EstablecerCorreo("C_Moreira@gmail.com");
+      Establecertelefono("89578998");
+    }
+    
+    /**
     private String deporte;
     private String equipo;
 
@@ -50,5 +61,6 @@ public class Deportista extends Persona {
         super.imprimirgeneral();
         imprimirDeportista();
     }
+    */
 }
 
