@@ -18,7 +18,7 @@ public class Persona {
     private String Profesion; // Propiedades generales de toda las subClases Doctor y Deportista.
     private String Telefono; // Propiedades generales de toda las subClases Doctor y Deportista.
     
-    // Metodos Establcer y obtener 
+    // Metodos Establecer y obtener 
     
     public void Identidad (String ID){ //Medoto General
        this.ID = ID;  
@@ -67,6 +67,24 @@ public class Persona {
     
     public String obtenerCorreo () {
         return this.Correo;
+    }
+    
+         //-------------------
+    public void Establecertelefono (String Telefono){//Metodo General
+       this.Telefono = Telefono;  
+    }
+    
+    public String obtenertelefono () {
+        return this.Telefono;
+    }
+    
+    public void imprimirgeneral (){
+       System.out.println("Id de la persona:" + ID); 
+       System.out.println("Nombre:" + Nombre); 
+       System.out.println("Profesión" + Profesion); 
+       System.out.println("Edad" + Edad); 
+       System.out.println("Correo" + Correo); 
+       System.out.println("Edad" + Telefono);   
     }
     
 }
