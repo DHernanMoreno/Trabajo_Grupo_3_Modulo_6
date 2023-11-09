@@ -78,13 +78,13 @@ public class Persona {
         return this.Telefono;
     }
     
-    public void imprimirgeneral (){
-       System.out.println("Id de la persona:" + ID); 
-       System.out.println("Nombre:" + Nombre); 
-       System.out.println("Profesión" + Profesion); 
-       System.out.println("Edad" + Edad); 
-       System.out.println("Correo" + Correo); 
-       System.out.println("Edad" + Telefono);   
+   public void imprimirgeneral (){
+       System.out.println("Id de la persona: " + ID); 
+       System.out.println("Nombre: " + Nombre); 
+       System.out.println("Profesión: " + Profesion); 
+       System.out.println("Edad: " + Edad); 
+       System.out.println("Correo: " + Correo); 
+       System.out.println("Telefono: " + Telefono);   
     }
     
 }
