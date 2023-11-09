@@ -20,9 +20,11 @@ public class main {
         
         Deportista deportista = new Deportista(); //Instanciar la clase Doctor 
         
-        System.out.println("Datos Generales");
         
+        System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
+        
+        
     }
     
 }
