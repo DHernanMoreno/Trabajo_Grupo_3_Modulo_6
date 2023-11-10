@@ -9,7 +9,7 @@ package Helpers;
  * @author dhern
  */
 public abstract class Persona {
-    //Prueba de Developers otra vez
+    //Prueba de Developers otra vez TTT
     //ATRIBUTOS 
     private String ID; // Propiedades generales de toda las subClases Doctor y Deportista.
     private String Nombre; // Propiedades generales de toda las subClases Doctor y Deportista.
