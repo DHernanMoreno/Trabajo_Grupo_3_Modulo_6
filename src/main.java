@@ -1,3 +1,6 @@
+
+import Helpers.Deportista;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -19,7 +22,7 @@ public class main {
         
         System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
-        //Esperando
+        //Esperando solucionar 
         
         
     }
