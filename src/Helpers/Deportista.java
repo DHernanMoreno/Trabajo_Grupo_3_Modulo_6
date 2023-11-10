@@ -5,7 +5,7 @@ package Helpers;
 
 public class Deportista extends Persona {
 
-    
+    //Subiendo deportista 
     // Atributos específicos de la subclase Deportista
     
       public Deportista (){
